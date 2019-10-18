@@ -46,10 +46,12 @@
   <ItemGroup>
     <Compile Include="Creational\AbstractFactory.cs" />
     <Compile Include="Creational\Builder.cs" />
+    <Compile Include="Creational\FactoryMethod.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tests\AbstractFactoryTests.cs" />
     <Compile Include="Tests\BuilderTests.cs" />
+    <Compile Include="Tests\FactoryMethodTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

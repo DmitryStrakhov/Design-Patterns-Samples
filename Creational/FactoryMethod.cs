@@ -19,6 +19,9 @@ namespace Design_Patterns_Samples {
         protected abstract AbstractProduct CreateProduct();
     }
 
+    public abstract class AbstractProduct {
+    }
+
 
     public sealed class ConcreteCreator : AbstractCreator {
         protected override AbstractProduct CreateProduct() {
@@ -26,14 +29,6 @@ namespace Design_Patterns_Samples {
         }
     }
 
-
-    #region Products
-
-    public abstract class AbstractProduct {
-    }
-
     public sealed class ConcreteProduct : AbstractProduct {
     }
-
-    #endregion
 }

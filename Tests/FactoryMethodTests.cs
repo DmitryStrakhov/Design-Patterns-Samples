@@ -9,7 +9,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Design_Patterns_Samples.Tests {
     [TestClass]
-    public class FactoryMethodTests {
+    public sealed class FactoryMethodTests {
         [TestMethod]
         public void ConcreteCreatorTest() {
             ConcreteCreator creator = new ConcreteCreator();

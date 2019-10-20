@@ -51,7 +51,9 @@
     <Compile Include="Creational\Singleton.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structural\Adapter.cs" />
     <Compile Include="Tests\AbstractFactoryTests.cs" />
+    <Compile Include="Tests\AdapterTests.cs" />
     <Compile Include="Tests\BuilderTests.cs" />
     <Compile Include="Tests\FactoryMethodTests.cs" />
     <Compile Include="Tests\PrototypeTests.cs" />

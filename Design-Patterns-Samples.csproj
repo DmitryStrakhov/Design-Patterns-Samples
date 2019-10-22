@@ -55,12 +55,14 @@
     <Compile Include="Structural\Bridge.cs" />
     <Compile Include="Structural\Composite.cs" />
     <Compile Include="Structural\Decorator.cs" />
+    <Compile Include="Structural\Facade.cs" />
     <Compile Include="Tests\AbstractFactoryTests.cs" />
     <Compile Include="Tests\AdapterTests.cs" />
     <Compile Include="Tests\BridgeTests.cs" />
     <Compile Include="Tests\BuilderTests.cs" />
     <Compile Include="Tests\CompositeTests.cs" />
     <Compile Include="Tests\DecoratorTests.cs" />
+    <Compile Include="Tests\FacadeTests.cs" />
     <Compile Include="Tests\FactoryMethodTests.cs" />
     <Compile Include="Tests\PrototypeTests.cs" />
     <Compile Include="Tests\SingletonTests.cs" />

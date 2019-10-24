@@ -44,6 +44,7 @@
     <Reference Condition="'$(Configuration)'=='Debug'" Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\ChainOfResponsibility.cs" />
     <Compile Include="Creational\AbstractFactory.cs" />
     <Compile Include="Creational\Builder.cs" />
     <Compile Include="Creational\FactoryMethod.cs" />
@@ -62,6 +63,7 @@
     <Compile Include="Tests\AdapterTests.cs" />
     <Compile Include="Tests\BridgeTests.cs" />
     <Compile Include="Tests\BuilderTests.cs" />
+    <Compile Include="Tests\ChainOfResponsibility.cs" />
     <Compile Include="Tests\CompositeTests.cs" />
     <Compile Include="Tests\DecoratorTests.cs" />
     <Compile Include="Tests\FacadeTests.cs" />

@@ -1,4 +1,6 @@
-﻿using System;
+﻿#if DEBUG
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -26,3 +28,4 @@ namespace Design_Patterns_Samples.Tests {
         }
     }
 }
+#endif

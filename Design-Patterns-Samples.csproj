@@ -57,6 +57,7 @@
     <Compile Include="Structural\Decorator.cs" />
     <Compile Include="Structural\Facade.cs" />
     <Compile Include="Structural\Flyweight.cs" />
+    <Compile Include="Structural\Proxy.cs" />
     <Compile Include="Tests\AbstractFactoryTests.cs" />
     <Compile Include="Tests\AdapterTests.cs" />
     <Compile Include="Tests\BridgeTests.cs" />
@@ -67,6 +68,7 @@
     <Compile Include="Tests\FactoryMethodTests.cs" />
     <Compile Include="Tests\FlyweightTests.cs" />
     <Compile Include="Tests\PrototypeTests.cs" />
+    <Compile Include="Tests\ProxyTests.cs" />
     <Compile Include="Tests\SingletonTests.cs" />
   </ItemGroup>
   <ItemGroup>

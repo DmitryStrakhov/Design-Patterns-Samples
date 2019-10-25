@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Behavioral\ChainOfResponsibility.cs" />
+    <Compile Include="Behavioral\Command.cs" />
     <Compile Include="Creational\AbstractFactory.cs" />
     <Compile Include="Creational\Builder.cs" />
     <Compile Include="Creational\FactoryMethod.cs" />
@@ -64,6 +65,7 @@
     <Compile Include="Tests\BridgeTests.cs" />
     <Compile Include="Tests\BuilderTests.cs" />
     <Compile Include="Tests\ChainOfResponsibility.cs" />
+    <Compile Include="Tests\CommandTests.cs" />
     <Compile Include="Tests\CompositeTests.cs" />
     <Compile Include="Tests\DecoratorTests.cs" />
     <Compile Include="Tests\FacadeTests.cs" />

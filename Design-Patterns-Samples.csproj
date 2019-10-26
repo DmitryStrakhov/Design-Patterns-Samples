@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Behavioral\ChainOfResponsibility.cs" />
     <Compile Include="Behavioral\Command.cs" />
+    <Compile Include="Behavioral\Interpreter.cs" />
     <Compile Include="Creational\AbstractFactory.cs" />
     <Compile Include="Creational\Builder.cs" />
     <Compile Include="Creational\FactoryMethod.cs" />
@@ -71,6 +72,7 @@
     <Compile Include="Tests\FacadeTests.cs" />
     <Compile Include="Tests\FactoryMethodTests.cs" />
     <Compile Include="Tests\FlyweightTests.cs" />
+    <Compile Include="Tests\InterpreterTests.cs" />
     <Compile Include="Tests\PrototypeTests.cs" />
     <Compile Include="Tests\ProxyTests.cs" />
     <Compile Include="Tests\SingletonTests.cs" />

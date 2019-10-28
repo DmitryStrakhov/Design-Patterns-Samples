@@ -49,6 +49,7 @@
     <Compile Include="Behavioral\Interpreter.cs" />
     <Compile Include="Behavioral\Iterator.cs" />
     <Compile Include="Behavioral\Mediator.cs" />
+    <Compile Include="Behavioral\Memento.cs" />
     <Compile Include="Creational\AbstractFactory.cs" />
     <Compile Include="Creational\Builder.cs" />
     <Compile Include="Creational\FactoryMethod.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="Tests\InterpreterTests.cs" />
     <Compile Include="Tests\IteratorTests.cs" />
     <Compile Include="Tests\MediatorTests.cs" />
+    <Compile Include="Tests\MementoTests.cs" />
     <Compile Include="Tests\PrototypeTests.cs" />
     <Compile Include="Tests\ProxyTests.cs" />
     <Compile Include="Tests\SingletonTests.cs" />

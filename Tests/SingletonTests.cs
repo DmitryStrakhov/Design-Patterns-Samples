@@ -15,7 +15,7 @@ namespace Design_Patterns_Samples.Tests {
             Singleton obj1 = Singleton.Instance;
             Singleton obj2 = Singleton.Instance;
             Assert.AreSame(obj1, obj2);
-            Singleton.Instance.Start();
+            Singleton.Instance.Action();
         }
     }
 }

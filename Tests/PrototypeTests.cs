@@ -23,7 +23,7 @@ namespace Design_Patterns_Samples.Tests {
 
         private void TestPrototype(AbstractPrototype prototype, object expectedValue) {
             PrototypeClient client = new PrototypeClient(prototype);
-            AbstractPrototype clone = client.Start();
+            AbstractPrototype clone = client.Action();
             Assert.IsNotNull(clone);
             Assert.AreNotSame(clone, prototype);
 

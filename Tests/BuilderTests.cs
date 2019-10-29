@@ -13,14 +13,14 @@ namespace Design_Patterns_Samples.Tests {
         [TestMethod]
         public void ProductABuilderTest() {
             ProductABuilder builder = new ProductABuilder();
-            new Director(builder).Start();
+            new Director(builder).Action();
             ProductA product = builder.GetProduct();
             AssertProduct(product, typeof(ProductA));
         }
         [TestMethod]
         public void ProductBBuilderTest() {
             ProductBBuilder builder = new ProductBBuilder();
-            new Director(builder).Start();
+            new Director(builder).Action();
             ProductB product = builder.GetProduct();
             AssertProduct(product, typeof(ProductB));
         }

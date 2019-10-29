@@ -12,7 +12,7 @@ namespace Design_Patterns_Samples {
         public Director(ProductBuilderBase builder) {
             this.builder = builder;
         }
-        public void Start() {
+        public void Action() {
             builder.BuildPart1();
             builder.BuildPart2();
             builder.BuildPart3();

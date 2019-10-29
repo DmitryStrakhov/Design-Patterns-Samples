@@ -8,7 +8,7 @@ namespace Design_Patterns_Samples {
     public sealed class Singleton {
         private Singleton() {
         }
-        public void Start() {
+        public void Action() {
         }
         public static readonly Singleton Instance = new Singleton();
     }

@@ -16,7 +16,7 @@ namespace Design_Patterns_Samples {
         public PrototypeClient(AbstractPrototype prototype) {
             this.prototype = prototype;
         }
-        public AbstractPrototype Start() {
+        public AbstractPrototype Action() {
             AbstractPrototype obj = prototype.Clone();
             return obj;
         }

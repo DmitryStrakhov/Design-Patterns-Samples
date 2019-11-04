@@ -13,7 +13,6 @@ namespace Design_Patterns_Samples.Tests {
         [TestMethod]
         public void ConcreteCreatorTest() {
             ConcreteCreator creator = new ConcreteCreator();
-            Assert.IsNotNull(creator.Product);
             Assert.IsInstanceOfType(creator.Product, typeof(ConcreteProduct));
         }
     }

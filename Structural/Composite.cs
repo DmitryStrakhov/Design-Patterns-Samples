@@ -29,10 +29,10 @@ namespace Design_Patterns_Samples {
         public override void Operation() {
         }
         public override void Add(Component component) {
-            // code
+            // add child component
         }
         public override void Remove(Component component) {
-            // code
+            // remove child component
         }
     }
 }
